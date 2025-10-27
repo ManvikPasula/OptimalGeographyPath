@@ -123,4 +123,4 @@ def find_shortest_path(id1, id2, evals=evals, evecs=evecs, max_search=max_search
 country1 = name_to_id[input("First Country : ")]
 country2 = name_to_id[input("Second Country : ")] 
 
-print(find_shortest_path(country1, country2) - 1) # subtract 1 bc don't count start and end
+print("The shortest # of countries connecting them is", find_shortest_path(country1, country2) - 1) # subtract 1 bc don't count start and end
